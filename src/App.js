@@ -5,7 +5,6 @@ import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import Navbar from './components/Navbar/Navbar'
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
