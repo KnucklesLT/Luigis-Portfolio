@@ -1,11 +1,16 @@
 import Project from "../../components/Project/Project";
 import { projects } from "../../assets/ProjectsJS/projects";
+import styles from "./Projects.module.css"
+
 const Projects = () => {
   
   return ( 
     <>
-      <h1>Projects</h1>
-      <Project projects={projects}/>
+      <main className={styles.container}>
+        {projects.map(project => (
+          <Project key={project.title} project={project}/>
+        ))}
+      </main>
     </>
   );
 }

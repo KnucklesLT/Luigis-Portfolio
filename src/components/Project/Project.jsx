@@ -1,14 +1,13 @@
-const Project = ({projects}) => {
+import { Link } from "react-router-dom";
+
+const Project = ({project}) => {
   return (
-    <>
-    {projects.map(project =>(
+    <Link to={`/projects/${project.title}`}>
       <section>
-        <h2>{project.name}</h2>
+        <h2>{project.title}</h2>
         <img src={project.image} alt={project.name} />
-        <p>{project.description}</p>
       </section>
-    ))}
-    </>
+    </Link>
   );
 }
 
