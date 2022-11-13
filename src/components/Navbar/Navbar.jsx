@@ -1,35 +1,35 @@
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
+import Logo from '../../assets/branding/LTLogo.svg'
+import styles from './Navbar.module.css'
 const Navbar = () => {
   return (  
-    <nav>
-      <Link to='/'>
-        Luigi Tejada
-      </Link>
+    <nav className={styles.container}>
+      <NavLink to={'/'}><img src={Logo} alt="Initial Logo" /></NavLink>
       <ul>
         <li>
-          <Link to='contact'>
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link to='/'>
+          <NavLink to='/'>
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to='projects'>
+          <NavLink to='projects'>
             Projects
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to='resume'>
+          <NavLink to='resume'>
             Resume
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to='about'>
+          <NavLink to='about'>
             About
-          </Link>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='contact' activeClassName='selected'>
+            Contact
+          </NavLink>
         </li>
       </ul>
     </nav>
