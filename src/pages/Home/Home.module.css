@@ -1,0 +1,44 @@
+.side {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+.side .title{
+  color: #E6E8E6;
+  font-family: "Rubik", sans-serif;
+  font-size: 8vw;
+  margin: 0px 10vw;
+  width: 80vw;
+}
+
+#left_side{
+  background-color: #995D81;
+  z-index: 2;
+}
+
+#left_side .fancy{
+  color: #508AA8;
+}
+
+#right_side .title {
+  color: #302B27;
+}
+
+#right_side .fancy{
+  color:#995D81;
+}
+#right_side{
+  background-color: #508AA8;
+}
+
+.side .fancy {
+  font-family: "Lobster", cursive;
+  font-size: 1.3em;
+  line-height: 0.8em;
+}

@@ -24,7 +24,7 @@ export const projects = [
     deploymentLink: 'https://luigi-tejadas-tic-tac-toe.netlify.app',
     repositoryLink: 'https://github.com/KnucklesLT/ttt-weekend',
     image: TicTacToe,
-    description: ``
+    description: `The amazingly simple game of Tic-Tac-Toe, with a little of my `
   },
   {
     title: 'PizzaPanda',
@@ -45,6 +45,5 @@ export const projects = [
     
     Like fantasy sports, the idea of Fantasy Filmmaker is to allow the user the ability to search for any actor or movie that they enjoy and swap out the leading stars for any actor/actress they would prefer for the role. Maybe you enjoyed the Equalizer, but thought Samuel Jackson would give a better performance as Robert McCall than Denzel Washington. Maybe you want Robert de Niro to play Alan Grant in Jurassic Park? All of these options are now available to you here!
     `
-    
   },
 ]
