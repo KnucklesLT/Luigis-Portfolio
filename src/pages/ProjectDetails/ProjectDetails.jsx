@@ -5,12 +5,12 @@ import './ProjectDetails.module.css'
 const ProjectDetails = () => {
   const { title } = useParams()
   const project = projects.find((el) => el.title === title)
-  console.log(project)
   return (
     <main>
-      <h1>{project.title}</h1>
+      <h1><a href={project.deploymentLink}>{project.title}</a></h1>
       <embed src={project.deploymentLink} type="text/html" width="99%" height="1000"/>
-      <p>{project.description}</p>
+      <p>{project.description}</p><br />
+      <p>Vist my Github for <a href={project.repositoryLink}>{project.title}</a></p>
     </main>
   );
 }

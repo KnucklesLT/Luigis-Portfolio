@@ -24,7 +24,7 @@ export const projects = [
     deploymentLink: 'https://luigi-tejadas-tic-tac-toe.netlify.app',
     repositoryLink: 'https://github.com/KnucklesLT/ttt-weekend',
     image: TicTacToe,
-    description: `The amazingly simple game of Tic-Tac-Toe, with a little of my `
+    description: `The amazingly simple game of Tic-Tac-Toe, with a little of my creativity mixed in.`
   },
   {
     title: 'PizzaPanda',

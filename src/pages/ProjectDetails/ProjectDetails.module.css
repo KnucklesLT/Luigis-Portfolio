@@ -1,8 +1,12 @@
 h1{
   text-align: center;
+  font-size: xxx-large;
   color: #E6E8E6;
 }
 p{
+  margin-right: 20px;
+  font-size: xx-large;
+  font-weight: 500;
   text-align: center;
-  color: #E6E8E6;
+  color: white;
 }

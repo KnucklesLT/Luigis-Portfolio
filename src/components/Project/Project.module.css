@@ -1,3 +1,7 @@
 .title{
   text-align: center;
 }
+
+section > h1{
+  color: #995D81;
+}

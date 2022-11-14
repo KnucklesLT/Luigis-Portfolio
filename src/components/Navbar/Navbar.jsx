@@ -4,13 +4,11 @@ import styles from './Navbar.module.css'
 const Navbar = () => {
   return (  
     <nav className={styles.container}>
-      <NavLink to={'/'}><img src={Logo} alt="Initial Logo" /></NavLink>
+      <NavLink to={'/'} className={styles.logo}>
+        {/* <img src={Logo} alt="Initial Logo" /> */}
+        LT
+      </NavLink>
       <ul>
-        <li>
-          <NavLink to='/'>
-            Home
-          </NavLink>
-        </li>
         <li>
           <NavLink to='projects'>
             Projects

@@ -3,7 +3,6 @@ import { projects } from "../../assets/ProjectsJS/projects";
 import styles from "./Projects.module.css"
 
 const Projects = () => {
-  
   return ( 
     <>
       <main className={styles.container}>
