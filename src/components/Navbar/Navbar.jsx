@@ -1,11 +1,9 @@
 import {NavLink} from 'react-router-dom'
-import Logo from '../../assets/branding/LTLogo.svg'
 import styles from './Navbar.module.css'
 const Navbar = () => {
   return (  
     <nav className={styles.container}>
       <NavLink to={'/'} className={styles.logo}>
-        {/* <img src={Logo} alt="Initial Logo" /> */}
         LT
       </NavLink>
       <ul>
