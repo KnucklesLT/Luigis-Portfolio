@@ -2,7 +2,9 @@
   font-size: xx-large;
   color: #995D81;
 }
-
+.icon{
+  margin: 15px;
+}
 .h2{
   text-align: center;
 }
