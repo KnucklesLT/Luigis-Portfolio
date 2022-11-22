@@ -19,7 +19,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink to='about'>
-            About
+            About Me
           </NavLink>
         </li>
         <li>
