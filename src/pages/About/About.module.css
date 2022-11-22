@@ -1,5 +1,16 @@
+.aboutMeSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .image{
   width: 400px;
   border-radius: 5%;
   margin: 20px;
+}
+.aboutMe{
+  margin: 20px;
+  color: #E6E8E6;
+  text-align: left;
+  line-height: 120%;
 }
