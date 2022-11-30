@@ -5,7 +5,8 @@ const Resume = () => {
   return ( 
     <>
       <h1>Resume</h1>
-      <h2>If you'd like to learn more about my work, please <a href={resume} download="Luigi_Tejada_Resume.pdf">download my resume</a>.</h2>
+      <h2>If you'd like to learn more about my work or download my resume to review at your leisure, please feel free!</h2>
+      <embed src={resume} width="98%" height="950" type="text/pdf" />
     </>
   );
 }

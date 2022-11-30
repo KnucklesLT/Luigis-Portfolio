@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   return (
     <main>
       <h1><a href={project.deploymentLink}>{project.title}</a></h1>
-      <embed src={project.deploymentLink} type="text/html" width="99%" height="1000"/>
+      <iframe src={project.deploymentLink} title={project.title} type="text/html" width="99%" height="1000"/>
       <p>{project.description}</p><br />
       <p>Vist my Github for <a href={project.repositoryLink}>{project.title}</a></p>
     </main>
