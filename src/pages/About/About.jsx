@@ -14,8 +14,6 @@ const About = () => {
           In his spare time he likes to read sci-fi books, bake desserts, and play the latest game (have you checked out God of War Ragnarok?). Luigi loves to learn new languages (working on Japanese) and tackling a challenging puzzle.
           <br/><br/>
           Having earned his degree in Computer Information Systems from New York City College of Technology, he combined his love for learning new languages and puzzles to, ultimately, pursue a career in coding which he believes is "a puzzle of languages." Luigi successfully completed a 12 week intensive boot camp with <a href='https://generalassemb.ly/'>General Assembly</a> and learned CSS, HTML, Javascript, React, and Python. Check out his latest projects using those technologies <Link to='/projects'>here</Link>.
-          <br/><br/>
-          Luigi currently resides in the suburbs of Connecticut with his daughter, fiancé, and dog.
         </p>
       </section>
     </>
